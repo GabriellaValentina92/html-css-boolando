@@ -71,10 +71,21 @@ main{
 
 .card{
     position: relative;
-
 }
+
 .card img{
     width: 300px;
+}
+
+.top-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.top-img:hover{
+    opacity: 1;
 }
 
 .heart i{
