@@ -66,8 +66,7 @@ main{
     gap: 0.8rem;
 }
 .snd-container{
-    width: 300px;
-    flex: 0 0 250px;
+    flex: 0 0 300px;
 }
 
 .card{
@@ -132,5 +131,31 @@ main{
     display: inline;
 }
 
+/* footer */
+
+footer{
+    background-color: black;
+}
+
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    height: 80px;
+    margin: auto;
+}
 
 
+.general-info{
+    color: white;
+}
+
+.company-info span{
+    font-size: 0.6rem;
+}
+
+.social h4{
+    font-size: 0.7rem;
+    line-height: 2rem;
+}
