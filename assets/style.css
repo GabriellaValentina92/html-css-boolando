@@ -54,6 +54,7 @@ nav{
 }
 
 /*main*/
+
 .container{
     max-width: 1000px;
     margin-inline: auto;
@@ -119,7 +120,7 @@ main{
 
 }
 
-.sustainability1{
+.card .sustainability1{
     position: absolute;
     left: 0;
     bottom: 50px;
