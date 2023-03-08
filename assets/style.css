@@ -9,7 +9,12 @@
 /* barra di navigazione*/
 
 header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background-color: orange;
+    z-index: 1;
 }
 
 nav{
@@ -49,3 +54,83 @@ nav{
 }
 
 /*main*/
+.container{
+    max-width: 1000px;
+    margin-inline: auto;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 6rem;
+    gap: 0.8rem;
+}
+.snd-container{
+    width: 300px;
+    flex: 0 0 250px;
+}
+
+.card{
+    position: relative;
+
+}
+.card img{
+    width: 300px;
+}
+
+.heart i{
+    position: absolute;
+    right: 0;
+    top: 25px;
+    background-color: white;
+    padding: 0.4rem;
+}
+
+.heart:hover{
+    color: red;
+}
+
+.card .discount{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    background-color: red;
+    color: white;
+    padding: 0.2rem;
+}
+
+.card .sustainability{
+    position: absolute;
+    left: 45px;
+    bottom: 50px;
+    background-color: green;
+    color: white;
+    padding: 0.2rem;
+
+}
+
+.sustainability1{
+    position: absolute;
+    left: 0;
+    bottom: 50px;
+    background-color: green;
+    color: white;
+    padding: 0.2rem;
+}
+
+.brand{
+    color: grey;
+}
+
+.price{
+    color: red;
+    display: inline;
+}
+
+.price1{
+    text-decoration: line-through;
+    display: inline;
+}
+
+
+
