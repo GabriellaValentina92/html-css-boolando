@@ -26,18 +26,18 @@ nav{
     margin: auto;
 }
 
-.nav-bar .menu-genere{
+.nav-bar .gender-category{
     display: flex;
     font-size: 0.9rem;
     gap: 0.5rem;
     
 }
 
-.menu-genere li{
+.gender-category li{
     list-style: none;
 }
 
-.menu-genere a, 
+.gender-category a, 
 .icons a {
     color: white;
     text-decoration: none;
